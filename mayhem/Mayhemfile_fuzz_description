@@ -1,0 +1,11 @@
+project: savantenvs/libdatachannel
+target: fuzz_description
+
+cmds:
+  - cmd: /mayhem/fuzz_description
+    libfuzzer: true
+    timeout: 5
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_description/testsuite

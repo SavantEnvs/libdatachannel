@@ -1,0 +1,1 @@
+a=candidate:2 1 TCP 1518280447 10.0.0.1 9 typ host tcptype passive generation 0
